@@ -20,4 +20,4 @@ waviness or bend around any entrained dust is inflated against
 a solid hard surface. This setup has been successfully used 
 for several NR studies at ILL [3-6]. 
 
-![Fig. 3 Original Confinement Cell design, Review of Scientific Instruments, 83, 113903 (2012)](/Images/Nellie.png)
+<img src*"Images/Nellie.png" width = "256">
