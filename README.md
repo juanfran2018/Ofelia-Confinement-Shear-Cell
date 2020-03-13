@@ -172,34 +172,34 @@ The upper limit of the ![$s_r$](https://render.githubusercontent.com/render/math
  in rpm) :
 ![N_{plc} = \frac{25N_p}{3}s_r](https://render.githubusercontent.com/render/math?math=N_%7Bplc%7D%20%3D%20%5Cfrac%7B25N_p%7D%7B3%7Ds_r)
 
-Using the time of the experiment as variable, $25/3\cdot10^6\geq t_{exp}\geq 125/3$ min,
-$$N_{plc} = \frac{25N_p}{3t_{exp}}$$
+Using the time of the experiment as variable, ![25/3\cdot10^6\geq t_{exp}\geq 125/3](https://render.githubusercontent.com/render/math?math=25%2F3%5Ccdot10%5E6%5Cgeq%20t_%7Bexp%7D%5Cgeq%20125%2F3)
+ min,
+![N_{plc} = \frac{25N_p}{3t_{exp}}](https://render.githubusercontent.com/render/math?math=N_%7Bplc%7D%20%3D%20%5Cfrac%7B25N_p%7D%7B3t_%7Bexp%7D%7D)
 
 ### Linear Confinement Cell Speed
 
 Only the gearbox reduces the speed of the motor:
-$$s_\ell = s/(100)=\frac{3N_{plc}}{5N_p}$$
-The upper limit of the $s_\ell$ using the full resolution ($N_p=10^6$) and the maximum command pulses ($N_{plc} =  2\cdot 10^5$) is $s_\ell=0.12$ rpm. At this speed, the silicon block will travel at the speed $v_\ell = 0.24$ (mm/min), where $p$ is the step of the linear stage screw ($p=2$ mm):
-$$v_\ell = p\cdot s_\ell=\frac{6N_{plc}}{5N_p}\ \ (mm/min)$$
-That is, $v_\ell = 4\ \mu m/s$. Supposing we only have 2 mm of travel distance, we need 8.3 minutes to run the full length. The theoretical minimum speed is reached when $N_{plc}=1$, $v_\ell = 0.02$ nm/s. When selecting speed, the following equation will be easier to use (with $v_\ell$ in mm/min):
-$$N_{plc} = 5N_pv_\ell/6$$
-Using the time of the experiment as variable, $5/3\cdot10^6\geq t_{exp}\geq 25/3$ min,
-$$N_{plc} =\frac{5N_p}{3t_{exp}}$$
+![s_\ell = s/(100)=\frac{3N_{plc}}{5N_p}](https://render.githubusercontent.com/render/math?math=s_%5Cell%20%3D%20s%2F(100)%3D%5Cfrac%7B3N_%7Bplc%7D%7D%7B5N_p%7D)
+The upper limit of the ![s_\ell](https://render.githubusercontent.com/render/math?math=s_%5Cell)
+ using the full resolution (![N_p=10^6](https://render.githubusercontent.com/render/math?math=N_p%3D10%5E6)
+) and the maximum command pulses (![N_{plc} =  2\cdot 10^5](https://render.githubusercontent.com/render/math?math=N_%7Bplc%7D%20%3D%20%202%5Ccdot%2010%5E5)
+) is ![s_\ell=0.12](https://render.githubusercontent.com/render/math?math=s_%5Cell%3D0.12)
+ rpm. At this speed, the silicon block will travel at the speed ![v_\ell = 0.24](https://render.githubusercontent.com/render/math?math=v_%5Cell%20%3D%200.24)
+ (mm/min), where $p$ is the step of the linear stage screw (p=2 mm):
+![v_\ell = p\cdot s_\ell=\frac{6N_{plc}}{5N_p}\ \ (mm/min)](https://render.githubusercontent.com/render/math?math=v_%5Cell%20%3D%20p%5Ccdot%20s_%5Cell%3D%5Cfrac%7B6N_%7Bplc%7D%7D%7B5N_p%7D%5C%20%5C%20(mm%2Fmin))
+That is, ![v_\ell = 4\ \mu m/s](https://render.githubusercontent.com/render/math?math=v_%5Cell%20%3D%204%5C%20%5Cmu%20m%2Fs). Supposing we only have 2 mm of travel distance, we need 8.3 minutes to run the full length. The theoretical minimum speed is reached when $N_{plc}=1$, $v_\ell = 0.02$ nm/s. When selecting speed, the following equation will be easier to use (with $v_\ell$ in mm/min):
+![N_{plc} = 5N_pv_\ell/6](https://render.githubusercontent.com/render/math?math=N_%7Bplc%7D%20%3D%205N_pv_%5Cell%2F6)
+Using the time of the experiment as variable, ![5/3\cdot10^6\geq t_{exp}\geq 25/3](https://render.githubusercontent.com/render/math?math=5%2F3%5Ccdot10%5E6%5Cgeq%20t_%7Bexp%7D%5Cgeq%2025%2F3) min,
+![N_{plc} =\frac{5N_p}{3t_{exp}}](https://render.githubusercontent.com/render/math?math=N_%7Bplc%7D%20%3D%5Cfrac%7B5N_p%7D%7B3t_%7Bexp%7D%7D).
 
-\section{Setting the $N_{plc}$ parameter}
+## Setting the ![N_{plc}](https://render.githubusercontent.com/render/math?math=N_%7Bplc%7D) parameter
 
-The $N_{plc}$ parameter is modified in the web page of the PLC (address 192.168.3.250; the same address should be put in the TCP/IP configuration on the Ethernet adapter, with subnet mask 255.255.255.0). In this web page the following parameters can be set:
+The ![N_{plc}](https://render.githubusercontent.com/render/math?math=N_%7Bplc%7D) parameter is modified in the webpage 
+of the PLC (address 192.168.3.250; the same address should be put in the TCP/IP configuration on the Ethernet adapter, 
+with subnet mask 255.255.255.0). In this web page the following parameters can be set:
 \begin{itemize}
-\item $M0$: binary value
-\item $M1$: binary value
-\item $M2$: binary value
-\item  $D1004$: 32$-$bit integer value, in the limits previously cited.
-\end{itemize}
-The web page has a login and password (set by Mitsubishi company):
-\begin{itemize}
-\item Login: Juan
-\item Password: 123456
-\end{itemize}
-\begin{center}
-\includegraphics[height=20cm]{Web.pdf}
-\end{center}
+* M0: binary value (switch direction)
+* M1: binary value (forward)
+* M2: binary value (backward)
+*  D1004: 32$-$bit integer value, in the limits previously cited (speed)
+
