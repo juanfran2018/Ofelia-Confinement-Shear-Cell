@@ -208,6 +208,9 @@ with subnet mask 255.255.255.0). In this web page the following parameters can b
 * M2: binary value (backward)
 * D1004: 32-bit integer value, in the limits previously cited (speed)
 
+In order to simplify the access and to setup custom programs, a LabView interface has been 
+developed (it can be downloaded in the Software folder).
+
 ## Pressure Control
 
 A pressure control setup was designed and manufactured in collaboration 
@@ -224,4 +227,5 @@ the pressure controller and check whether leaks are present in the pressure cham
 pressure fluctuations could also be registered during an experiment.
 In order to control both the pressure controller and the pressure sensor, 
 a LabView graphical interface was programmed. In particular, 
-the pressure sensor was connected to a microcontroller (Arduino).
+the pressure sensor was connected to a microcontroller (Arduino) 
+and LabView was used for developing the GUI interface.
