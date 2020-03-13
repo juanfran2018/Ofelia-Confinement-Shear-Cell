@@ -1,9 +1,8 @@
 
-
 # Ofelia Confinement Shear Cell
 
 ## Motivation
-<div class=text-justify>
+<div style="text-align: justify"> 
 The solvent-mediated forces between macromolecular structures at
 surfaces are the essence of the physics of adhesion, 
 lubrication and many other applications in particle aggregation and coalescence. Surface force apparatus (1970)
@@ -11,7 +10,7 @@ and Atomic Force Microscopy have revealed as very useful tools to characterize
 the interactions between surfaces. However , in these direct force measurements, 
 the structures of the interacting media are not known in detail, 
 particularly as the surfaces are compressed or confined. 
-
+</div>
 In this sense, Neutron Reflection (NR) is a powerful technique to study the structure of thin films at interfaces. 
 The development of an instrument capable of measuring confined samples has a long history. The initial approach 
 (Crossgrove and Zarbakhsh, 1994) was bring two solid surfaces together, with two quartz blocks providing they are parallel surfaces 
@@ -27,7 +26,7 @@ An original approach (Bristol University, 2012) to this problem was able to solv
 Using a flexible membrane, Melinex (Polyethylene Terephtalate, DuPont Teijin) as one of the substrates, avoids
 the nearly all problems with dust particles and solves the lack of flatness of the surfaces over large interfacial areas and provides
 close an even molecular contact between interfaces over a large area.
-</div>
+
 <p align="center">
 <img src="Images/Nellie.png" width = "512">
 </p>
