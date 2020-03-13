@@ -1,7 +1,7 @@
-# Ofelia Confinement Shear Cell
+# Linear and Rotational Confinement Shear Cell
 
 ## Motivation
-<div style="text-align: right"> 
+
 The solvent-mediated forces between macromolecular structures at
 surfaces are the essence of the physics of adhesion, 
 lubrication and many other applications in particle aggregation and coalescence. Surface force apparatus (1970)
