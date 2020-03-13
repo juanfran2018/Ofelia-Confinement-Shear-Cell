@@ -136,5 +136,5 @@ can be exchanged by standard threaded screws.
 The setup of the cell should be done following the graph.
 
 <p align="center">
-<img src="Images/Linear1.png" width = "512">
+<img src="Images/Linear.png" width = "512">
 </p>
