@@ -1,9 +1,9 @@
-<div class=text-justify>
+
 
 # Ofelia Confinement Shear Cell
 
 ## Motivation
-
+<div class=text-justify>
 The solvent-mediated forces between macromolecular structures at
 surfaces are the essence of the physics of adhesion, 
 lubrication and many other applications in particle aggregation and coalescence. Surface force apparatus (1970)
@@ -27,7 +27,7 @@ An original approach (Bristol University, 2012) to this problem was able to solv
 Using a flexible membrane, Melinex (Polyethylene Terephtalate, DuPont Teijin) as one of the substrates, avoids
 the nearly all problems with dust particles and solves the lack of flatness of the surfaces over large interfacial areas and provides
 close an even molecular contact between interfaces over a large area.
-
+</div>
 <p align="center">
 <img src="Images/Nellie.png" width = "512">
 </p>
@@ -69,4 +69,3 @@ using a servo motor (Mitsubishi). The combined reduction factor of the gearbox a
 This setup allows us to apply relevant shear rates (1-1000s-1). 
 
 
-</div>
