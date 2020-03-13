@@ -14,8 +14,7 @@ In this sense, Neutron Reflection (NR) is a powerful technique to study the stru
 The development of an instrument capable of measuring confined samples has a long history. The initial approach 
 (Crossgrove and Zarbakhsh, 1994) was bring two solid surfaces together, with two quartz blocks providing they are parallel surfaces 
 and a hydraulic pressure system used to bring the surfaces to within 10-100 nm of each other. 
-The pressure required was large (10-150 bar), and strongly dependent of the sample. Other approaches  
-(Kuhl and coworkers, 2001) also developed a similar confinement cell for neutron reflectometry with a limit
+The pressure required was large (10-150 bar), and strongly dependent of the sample. Other approaches (Kuhl and coworkers, 2001) also developed a similar confinement cell for neutron reflectometry with a limit
 of 80 to 100 nm for the smallest distance between surfaces. This approach also has the possibility to apply steady shear rates from 0.001 to 20 Hz (faster with oscillatory motion). Both
 approaches have similar problems: solid surface approach can be limited by any dust present between substrates, 
 affecting the pressure distribution across the surfaces; the inherent long range waviness of substrates 
@@ -46,6 +45,8 @@ as these soft layers should significantly dissipate friction energy. The develop
 will allow this mechanistic understanding and, subsequently, 
 the rational design of water based lubricants that could e.g., replace those based on oils.
 
+## Linear and Rotational confinement and shear designs
+
 In the new setup, shear has been implemented modifying the central support of the silicon block. Two
 designs were developed for different types of shear:
 
@@ -66,4 +67,69 @@ The transmission is mediated using a reducer gearbox (100:1) while the movement
 using a servo motor (Mitsubishi). The combined reduction factor of the gearbox and the bevel gear is 500:1. 
 This setup allows us to apply relevant shear rates (1-1000s-1). 
 
+###  Rotational Confinement and Shear Cell
 
+The rotational Ofelia (RCC) has the following parts:
+
+* NSK ball bearing. In this prototype, part is glued and part can be moved. Use fat to lubricate bearings.
+* External case (aluminium)
+* Internal case (aluminium)
+* Membrane support (stainless steel)
+* Top membrane holder (aluminium)
+* Bottom membrane holder (aluminium)
+* Sample holder (aluminium), it is glued to one part of the NSK ball bearing.
+* Case lid (aluminium)
+* Bevel gear with pinion, KHK-US-SB1.5-6012. This is a reductor 5:1.
+* MAXOS safety glass, 60 mm diameter, 10 mm thickness, 16 bar max pressure (ACI).
+
+
+In order to mount the system uses hexagonal socket cap, stainless stell screws and two steel screws:
+
+* 2 M10$\times$1, in the external case. For the experiment they are changed by a quick fit in the inlet and a transducer pressure sensor (KA Sensors) in the outlet.
+* 6 M3$\times$30, for the bottom membrane holder.
+* 6 M3$\times$6, for the top membrane holder.
+* 3 M3$\times$12, for the window.
+* 3 wall through M3,  for the sample support.
+* 19 M4$\times$25, for the top membrane holder.
+* 4 M5$\times$20, for the membrane support.
+* 3 M5, for the sample support and Bevel gear.
+* 1 M2, for the fix the sample position (needs the 0.9 mm Allen key).
+
+
+The setup of the cell should be done following the graph.
+
+<p align="center">
+<img src="Images/Rot.png" width = "512">
+</p>
+
+### Linear Confinement and Shear cell
+
+The linear Ofelia has the following parts:
+
+* Liner stage: it has a square table (85 mm) with four M6 threaded holes. The infinite screw has 2 mm step. The linear stage is the model JM12-S0040-TR-UR, manufactured by AluFlex. The linear stage is already attache to the base using hexagonal nuts.
+* External case (aluminium)
+* Internal case (aluminium)
+* Membrane support (stainless steel)
+* Top membrane holder (aluminium), includes Viton O-ring.
+* Bottom membrane holder (aluminium), includes Viton O-ring.
+* Sample holder (aluminium)
+* Case lid (aluminium)
+* MAXOS safety glass, 60 mm diameter, 10 mm thickness, 16 bar max pressure (ACI), includes Viton O-ring.
+
+
+In order to mount the system uses hexagonal socket cap, stainless stell screws and two steel screws:
+
+* 2 M10$\times$1, in the external case. For the experiment they are changed by a quick fit in the inlet and a transducer pressure sensor (KA Sensors) in the outlet, includes Viton O-ring.
+* 6 M3$\times$30, for the bottom membrane holder.
+* 6 M3$\times$6, for the top membrane holder.
+* 3 M3$\times$12, for the window.
+* 19 M4$\times$25, for the top membrane holder.
+* 4 M5$\times$20, for the membrane support.
+* 4 M6, for the sample support.
+* 1 M2, for the fix the sample position (needs the 0.9 mm Allen key).
+
+The setup of the cell should be done following the graph.
+
+<p align="center">
+<img src="Images/Linear1.png" width = "512">
+</p>
