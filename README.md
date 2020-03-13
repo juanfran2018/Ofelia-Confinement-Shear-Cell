@@ -1,3 +1,5 @@
+<div style="text-align: justify">
+
 # Ofelia Confinement Shear Cell
 
 ## Motivation
@@ -49,13 +51,13 @@ the rational design of water based lubricants that could e.g., replace those bas
 In the new setup, shear has been implemented modifying the central support of the silicon block. Two
 designs were developed for different types of shear:
 
-* Linear confinement shear cell
+* Rotational confinement shear cell
 
 <p align="center">
 <img src="Images/Circular.png" width = "512">
 </p>
 
-* Rotational confinement shear cell 
+* Linear confinement shear cell 
 
 <p align="center">
 <img src="Images/LinAssembly.png" width = "512">
