@@ -1,8 +1,11 @@
+body {
+  text-align: justify;
+}
 
 # Ofelia Confinement Shear Cell
 
 ## Motivation
-<div style="text-align: justify"> 
+<div style="text-align: right"> 
 The solvent-mediated forces between macromolecular structures at
 surfaces are the essence of the physics of adhesion, 
 lubrication and many other applications in particle aggregation and coalescence. Surface force apparatus (1970)
@@ -10,7 +13,7 @@ and Atomic Force Microscopy have revealed as very useful tools to characterize
 the interactions between surfaces. However , in these direct force measurements, 
 the structures of the interacting media are not known in detail, 
 particularly as the surfaces are compressed or confined. 
-</div>
+
 In this sense, Neutron Reflection (NR) is a powerful technique to study the structure of thin films at interfaces. 
 The development of an instrument capable of measuring confined samples has a long history. The initial approach 
 (Crossgrove and Zarbakhsh, 1994) was bring two solid surfaces together, with two quartz blocks providing they are parallel surfaces 
