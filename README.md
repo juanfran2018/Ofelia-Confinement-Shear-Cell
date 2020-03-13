@@ -1,7 +1,3 @@
-body {
-  text-align: justify;
-}
-
 # Ofelia Confinement Shear Cell
 
 ## Motivation
