@@ -1,4 +1,4 @@
-<p style='text-align: justify;'> 
+<div class=text-justify>
 
 # Ofelia Confinement Shear Cell
 
@@ -69,4 +69,4 @@ using a servo motor (Mitsubishi). The combined reduction factor of the gearbox a
 This setup allows us to apply relevant shear rates (1-1000s-1). 
 
 
-</p>
+</div>
