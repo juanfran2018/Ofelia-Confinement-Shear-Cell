@@ -141,7 +141,7 @@ The setup of the cell should be done following the graph.
 
 ## Speed control
 
-The linear and rotational confinement and shear cells requires the same motor: a Mitsubishi HG-KR053. The motor could be controlled using the Melservo controller
+The linear and rotational confinement and shear cells requires the same motor: a Mitsubishi HG-K053. The motor could be controlled using the Mitsubishi, Melservo R-J4-10A-RU controller 
 and a PLC. This last one is useful to send commands programmatically and to connect the cell in an LAN for intrumentation. Regarding the software, a simple control
 was implemented to change speed and direction. The main (avalaible) parameters that affect the Mitsubishi motor are three:
 
