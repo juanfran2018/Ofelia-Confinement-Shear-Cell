@@ -206,5 +206,22 @@ with subnet mask 255.255.255.0). In this web page the following parameters can b
 * M0: binary value (switch direction)
 * M1: binary value (forward)
 * M2: binary value (backward)
-*  D1004: 32-bit integer value, in the limits previously cited (speed)
+* D1004: 32-bit integer value, in the limits previously cited (speed)
 
+## Pressure Control
+
+A pressure control setup was designed and manufactured in collaboration 
+with FluidControls, Ltd. (Bristol, UK). Briefly, the pressure controller consists of a 
+pressure valve along with electronics for controlling and monitoring the pressure. 
+It also has an inlet that supplies nitrogen or dry air to the pressure valve. 
+Gas is then conducted to the outlet and from this point to the confinement-shear cell. 
+The pressure measured by the controller is basically the equilibrated pressure between 
+the controller and the cell. If the outlet valve is closed and the controller is switched 
+off, all the information on the pressure is lost. Also, no information on leaks could 
+be directly detected. To overcome this drawback, a pressure sensor (ASH-A1000-4A1-AD-2V-050-000-000, KA -sensors) 
+was mounted at the outlet of the cell pressure chamber. This allows users to close the outlet valve from 
+the pressure controller and check whether leaks are present in the pressure chamber. At the same time, 
+pressure fluctuations could also be registered during an experiment.
+In order to control both the pressure controller and the pressure sensor, 
+a LabView graphical interface was programmed. In particular, 
+the pressure sensor was connected to a microcontroller (Arduino).
