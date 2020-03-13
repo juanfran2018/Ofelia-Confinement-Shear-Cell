@@ -69,7 +69,7 @@ This setup allows us to apply relevant shear rates (1-1000s-1).
 
 ###  Rotational Confinement and Shear Cell
 
-The rotational Ofelia (RCC) has the following parts:
+The rotational Ofelia (RCC) has the following parts (all the sketched parts can be downloaded from the Design folder):
 
 * NSK ball bearing. In this prototype, part is glued and part can be moved. Use fat to lubricate bearings.
 * External case (aluminium)
@@ -83,18 +83,20 @@ The rotational Ofelia (RCC) has the following parts:
 * MAXOS safety glass, 60 mm diameter, 10 mm thickness, 16 bar max pressure (ACI).
 
 
-In order to mount the system uses hexagonal socket cap, stainless stell screws and two steel screws:
+In order to mount the system hexagonal socket cap, stainless steel screws should be used:
 
-* 2 M10$\times$1, in the external case. For the experiment they are changed by a quick fit in the inlet and a transducer pressure sensor (KA Sensors) in the outlet.
-* 6 M3$\times$30, for the bottom membrane holder.
-* 6 M3$\times$6, for the top membrane holder.
-* 3 M3$\times$12, for the window.
+* 2 M10x1, in the external case. For the experiment they are changed by a quick fit in the inlet and a transducer pressure sensor (KA Sensors) in the outlet.
+* 6 M3x30, for the bottom membrane holder.
+* 6 M3x6, for the top membrane holder.
+* 3 M3x12, for the window.
 * 3 wall through M3,  for the sample support.
-* 19 M4$\times$25, for the top membrane holder.
-* 4 M5$\times$20, for the membrane support.
+* 19 M4x25, for the top membrane holder.
+* 4 M5x20, for the membrane support.
 * 3 M5, for the sample support and Bevel gear.
 * 1 M2, for the fix the sample position (needs the 0.9 mm Allen key).
 
+Original modifications where planned for fine threaded screws. As it is difficult to find suppliers for small quantities, the screws
+can be exchanged by standard threaded screws.
 
 The setup of the cell should be done following the graph.
 
@@ -104,7 +106,7 @@ The setup of the cell should be done following the graph.
 
 ### Linear Confinement and Shear cell
 
-The linear Ofelia has the following parts:
+The linear Ofelia has the following parts (all the sketched parts can be downloaded from the Design folder):
 
 * Liner stage: it has a square table (85 mm) with four M6 threaded holes. The infinite screw has 2 mm step. The linear stage is the model JM12-S0040-TR-UR, manufactured by AluFlex. The linear stage is already attache to the base using hexagonal nuts.
 * External case (aluminium)
@@ -117,16 +119,19 @@ The linear Ofelia has the following parts:
 * MAXOS safety glass, 60 mm diameter, 10 mm thickness, 16 bar max pressure (ACI), includes Viton O-ring.
 
 
-In order to mount the system uses hexagonal socket cap, stainless stell screws and two steel screws:
+In order to mount the system hexagonal socket cap, stainless steel screws should be used:
 
-* 2 M10$\times$1, in the external case. For the experiment they are changed by a quick fit in the inlet and a transducer pressure sensor (KA Sensors) in the outlet, includes Viton O-ring.
-* 6 M3$\times$30, for the bottom membrane holder.
-* 6 M3$\times$6, for the top membrane holder.
-* 3 M3$\times$12, for the window.
-* 19 M4$\times$25, for the top membrane holder.
-* 4 M5$\times$20, for the membrane support.
+* 2 M10x1, in the external case. For the experiment they are changed by a quick fit in the inlet and a transducer pressure sensor (KA Sensors) in the outlet, includes Viton O-ring.
+* 6 M3x30, for the bottom membrane holder.
+* 6 M3x6, for the top membrane holder.
+* 3 M3x12, for the window.
+* 19 M4x25, for the top membrane holder.
+* 4 M5x20, for the membrane support.
 * 4 M6, for the sample support.
 * 1 M2, for the fix the sample position (needs the 0.9 mm Allen key).
+
+As before, original modifications where planned for fine threaded screws. As it is difficult to find suppliers for small quantities, the screws
+can be exchanged by standard threaded screws.
 
 The setup of the cell should be done following the graph.
 
