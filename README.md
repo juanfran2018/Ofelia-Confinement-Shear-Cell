@@ -39,7 +39,7 @@ The determination of the structures of sheared boundary lubricants remains a cha
 which results in a lack of understanding of boundary lubrication mechanisms severely 
 impeding the rational design of lubricants. This is clear for the case of water based 
 lubricants, for which we lack a mechanical understanding. Specifically, different types 
-of hydrophilic polymer coatings (e.g., PEO brushes [8]) have been reported to provide 
+of hydrophilic polymer coatings (e.g., PEO brushes) have been reported to provide 
 extraordinary lubricating performance in aqueous solution. This is counterintuitive 
 as these soft layers should significantly dissipate friction energy. The developed cell 
 will allow this mechanistic understanding and, subsequently, 
