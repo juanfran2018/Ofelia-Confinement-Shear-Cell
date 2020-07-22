@@ -160,9 +160,7 @@ In the actual setup, speed is affected by the reduction of the Gearbox (100:1) f
 
 ### Rotational Confinement Cell Speed
 
-In this particular case, the bevel gear reduces 5 times the speed from the Gearbox,
-![s_r = s/(500)=\frac{3N_{plc}}{25N_p}](https://render.githubusercontent.com/render/math?math=s_r%20%3D%20s%2F(500)%3D%5Cfrac%7B3N_%7Bplc%7D%7D%7B25N_p%7D)
-The upper limit of the ![$s_r$](https://render.githubusercontent.com/render/math?math=%24s_r%24)
+In this particular case, the bevel gear reduces 5 times the speed from the Gearbox, <img src="https://render.githubusercontent.com/render/math?math=s_r=s/(500)=\frac{3N_{plc}}{25N_p}">. The upper limit of the ![$s_r$](https://render.githubusercontent.com/render/math?math=%24s_r%24)
  using the full resolution (![$N_p=10^6$](https://render.githubusercontent.com/render/math?math=%24N_p%3D10%5E6%24)
 ) and the maximum command pulses (![$N_{plc} =  2\cdot 10^5$](https://render.githubusercontent.com/render/math?math=%24N_%7Bplc%7D%20%3D%20%202%5Ccdot%2010%5E5%24)
 ) is ![$s_r=0.024$](https://render.githubusercontent.com/render/math?math=%24s_r%3D0.024%24)
