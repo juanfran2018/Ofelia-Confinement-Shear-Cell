@@ -151,7 +151,7 @@ was implemented to change speed and direction. The main (avalaible) parameters t
 * PLC command pulses (![$N_{plc}\leq 2\cdot 10^5$](https://render.githubusercontent.com/render/math?math=%24N_%7Bplc%7D%5Cleq%202%5Ccdot%2010%5E5%24)
 )
 
-However, we will only modify the last two for the experiment. The equation that relates these parameters with the motor speed ($s$) is (in RPM):
+However, we will only modify the last two for the experiment. The equation that relates these parameters with the motor speed (<img src="https://render.githubusercontent.com/render/math?math=s">) is (in RPM):
 
 ![s = 60\frac{N_{plc}}{N_p}](https://render.githubusercontent.com/render/math?math=s%20%3D%2060%5Cfrac%7BN_%7Bplc%7D%7D%7BN_p%7D)
 
