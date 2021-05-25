@@ -233,6 +233,8 @@ and LabView was used for developing the GUI interface.
 Thermal neutron filtering as well as improvement of background is usually achieved by using Cadmium. Due to the the restrictions on the use of cadmium in the European Union (European Union Directive 2002/95/EC (RoHS)), avoiding the use of Cadmium in preferable. One of the alternatives that has recently gain some repercusion is the implementation of
 new 3D printing materials with the capatibility to block background scattering in reflection measurements improving signal to background ratio [[5]](#5) [[6]](#6).
 
+![Assembly_A v1](https://user-images.githubusercontent.com/55095328/119545271-ed5b7180-bd92-11eb-8b63-dc1611044281.png)
+
 Ofelia implements two masks, that cover the input and output windows of the external and internal case lids. The 3D printed material used is Addbor N25 [[7]](#7) a polyamide filled with 25% Boron Carbide. The masks were printed with a 3D printer Prusa  MK2S multimaterial [[8]](#8), using the default parameters for ABS material.
 
 ## References
