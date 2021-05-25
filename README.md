@@ -247,7 +247,7 @@ Kuhl, T. L., Smith, G. S., Israelachvili, J. N., Majewski, J., & Hamilton, W. (2
 De Vos, W. M., Mears, L. L., Richardson, R. M., Cosgrove, T., Dalgliesh, R. M., & Prescott, S. W. (2012). Measuring the structure of thin soft matter films under confinement: A surface-force type apparatus for neutron reflection, based on a flexible membrane approach. Review of Scientific Instruments, 83(11), 113903.
 
 <a id="4">[4]</a>
-Nordforks Project: Neutron scattering of confined and sheared thin soft films. Retrieved from https://www.nordforsk.org/projects/neutron-scattering-confined-and-sheared-thin-soft-films (2021)
+Nordforsk Project: Neutron scattering of confined and sheared thin soft films. Retrieved from https://www.nordforsk.org/projects/neutron-scattering-confined-and-sheared-thin-soft-films (2021)
 
 <a id="5">[5]</a>
 Olsson, A., Hellsing, M. S., & Rennie, A. R. (2017). New possibilities using additive manufacturing with materials that are difficult to process and with complex structures. Physica Scripta, 92(5), 053002.
