@@ -14,7 +14,7 @@ In this sense, Neutron Reflection (NR) is a powerful technique to study the stru
 The development of an instrument capable of measuring confined samples has a long history. The initial approach 
 [[1]](#1) was bring two solid surfaces together, with two quartz blocks providing they are parallel surfaces 
 and a hydraulic pressure system used to bring the surfaces to within 10-100 nm of each other. 
-The pressure required was large (10-150 bar), and strongly dependent of the sample. Other approaches (Kuhl and coworkers, 2001) also developed a similar confinement cell for neutron reflectometry with a limit
+The pressure required was large (10-150 bar), and strongly dependent of the sample. Other approaches [[2]](#2) also developed a similar confinement cell for neutron reflectometry with a limit
 of 80 to 100 nm for the smallest distance between surfaces. This approach also has the possibility to apply steady shear rates from 0.001 to 20 Hz (faster with oscillatory motion). Both
 approaches have similar problems: solid surface approach can be limited by any dust present between substrates, 
 affecting the pressure distribution across the surfaces; the inherent long range waviness of substrates 
@@ -231,9 +231,9 @@ and LabView was used for developing the GUI interface.
 ## 3D Printed Masks
 
 Thermal neutron filtering as well as improvement of background is usually achieved by using Cadmium. Due to the the restrictions on the use of cadmium in the European Union (European Union Directive 2002/95/EC (RoHS)), avoiding the use of Cadmium in preferable. One of the alternatives that has recently gain some repercusion is the implementation of
-new 3D printing materials with the capatibility to block background scattering in reflection measurements improving signal to background ratio ([[2]](#2), [[3]](#3)).
+new 3D printing materials with the capatibility to block background scattering in reflection measurements improving signal to background ratio ([[3]](#3), [[4]](#4)).
 
-Ofelia implements two masks, that cover the input and output windows of the external and internal case lids. The 3D printed material used is Addbor N25 (Additive Composites Uppsala) a polyamide filled with 25% Boron Carbide. The masks were printed with a 3D printer Prusa  MK2S multimaterial, using the default parameters for ABS material.
+Ofelia implements two masks, that cover the input and output windows of the external and internal case lids. The 3D printed material used is Addbor N25 ([[5]](#5)) a polyamide filled with 25% Boron Carbide. The masks were printed with a 3D printer Prusa  MK2S multimaterial ([[6]](#6)), using the default parameters for ABS material.
 
 ## References
 
@@ -241,7 +241,16 @@ Ofelia implements two masks, that cover the input and output windows of the exte
 Cosgrove, T., Luckham, P. F., Richardson, R. M., Webster, J. R. P., & Zarbakhsh, A. (1994). The measurement of volume fraction profiles for adsorbed polymers under compression using neutron reflectometry. Colloids and Surfaces A: Physicochemical and Engineering Aspects, 86, 103-110.
 
 <a id="2">[2]</a>
-Olsson, A., Hellsing, M. S., & Rennie, A. R. (2017). New possibilities using additive manufacturing with materials that are difficult to process and with complex structures. Physica Scripta, 92(5), 053002.
+Kuhl, T. L., Smith, G. S., Israelachvili, J. N., Majewski, J., & Hamilton, W. (2001). Neutron confinement cell for investigating complex fluids. Review of Scientific Instruments, 72(3), 1715-1720.
 
 <a id="3">[3]</a>
+Olsson, A., Hellsing, M. S., & Rennie, A. R. (2017). New possibilities using additive manufacturing with materials that are difficult to process and with complex structures. Physica Scripta, 92(5), 053002.
+
+<a id="4">[4]</a>
 Rennie, A. R., Hellsing, M. S., Lindholm, E., & Olsson, A. (2015). Note: Sample cells to investigate solid/liquid interfaces with neutrons. Review of Scientific Instruments, 86(1), 016115.
+
+<a id="5">[5]</a>
+Additive Composite Uppsala. Retrieved from https://additivecomposite.com/ (2021)
+
+<a id="6">[6]</a>
+Prusa Research. Retrieved from https://shop.prusa3d.com/en/content/4-about-us/ (2021)
