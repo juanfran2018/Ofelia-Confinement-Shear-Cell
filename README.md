@@ -20,7 +20,7 @@ approaches have similar problems: solid surface approach can be limited by any d
 affecting the pressure distribution across the surfaces; the inherent long range waviness of substrates 
 play also a limiting role in the minimum distance between surfaces.
 
-An original approach (Bristol University, 2012) to this problem was able to solve nearly all these problems. 
+An original approach [[3]](#3) to this problem was able to solve nearly all these problems. 
 Using a flexible membrane, Melinex (Polyethylene Terephtalate, DuPont Teijin) as one of the substrates, avoids
 the nearly all problems with dust particles and solves the lack of flatness of the surfaces over large interfacial areas and provides
 close an even molecular contact between interfaces over a large area.
@@ -33,7 +33,7 @@ This setup has been successfully used at a number of studies at ILL and ISIS.
 Within the framework of a collaborative project between Malmö University, 
 Kent University, ISIS, ESS and ILL recently funded by the Swedish Research Council 
 and the Nordforsk Foundation, this confinement cell have been further developed , 
-and implemented the possibility of shearing the opposing surfaces. 
+and implemented the possibility of shearing the opposing surfaces [[4]](#4). 
 
 The determination of the structures of sheared boundary lubricants remains a challenge, 
 which results in a lack of understanding of boundary lubrication mechanisms severely 
@@ -231,9 +231,9 @@ and LabView was used for developing the GUI interface.
 ## 3D Printed Masks
 
 Thermal neutron filtering as well as improvement of background is usually achieved by using Cadmium. Due to the the restrictions on the use of cadmium in the European Union (European Union Directive 2002/95/EC (RoHS)), avoiding the use of Cadmium in preferable. One of the alternatives that has recently gain some repercusion is the implementation of
-new 3D printing materials with the capatibility to block background scattering in reflection measurements improving signal to background ratio ([[3]](#3), [[4]](#4)).
+new 3D printing materials with the capatibility to block background scattering in reflection measurements improving signal to background ratio [[5]](#5) [[6]](#6).
 
-Ofelia implements two masks, that cover the input and output windows of the external and internal case lids. The 3D printed material used is Addbor N25 ([[5]](#5)) a polyamide filled with 25% Boron Carbide. The masks were printed with a 3D printer Prusa  MK2S multimaterial ([[6]](#6)), using the default parameters for ABS material.
+Ofelia implements two masks, that cover the input and output windows of the external and internal case lids. The 3D printed material used is Addbor N25 [[7]](#7) a polyamide filled with 25% Boron Carbide. The masks were printed with a 3D printer Prusa  MK2S multimaterial [[8]](#8), using the default parameters for ABS material.
 
 ## References
 
@@ -244,13 +244,19 @@ Cosgrove, T., Luckham, P. F., Richardson, R. M., Webster, J. R. P., & Zarbakhsh,
 Kuhl, T. L., Smith, G. S., Israelachvili, J. N., Majewski, J., & Hamilton, W. (2001). Neutron confinement cell for investigating complex fluids. Review of Scientific Instruments, 72(3), 1715-1720.
 
 <a id="3">[3]</a>
-Olsson, A., Hellsing, M. S., & Rennie, A. R. (2017). New possibilities using additive manufacturing with materials that are difficult to process and with complex structures. Physica Scripta, 92(5), 053002.
+De Vos, W. M., Mears, L. L., Richardson, R. M., Cosgrove, T., Dalgliesh, R. M., & Prescott, S. W. (2012). Measuring the structure of thin soft matter films under confinement: A surface-force type apparatus for neutron reflection, based on a flexible membrane approach. Review of Scientific Instruments, 83(11), 113903.
 
 <a id="4">[4]</a>
-Rennie, A. R., Hellsing, M. S., Lindholm, E., & Olsson, A. (2015). Note: Sample cells to investigate solid/liquid interfaces with neutrons. Review of Scientific Instruments, 86(1), 016115.
+Nordforks Project: Neutron scattering of confined and sheared thin soft films. Retrieved from https://www.nordforsk.org/projects/neutron-scattering-confined-and-sheared-thin-soft-films (2021)
 
 <a id="5">[5]</a>
-Additive Composite Uppsala. Retrieved from https://additivecomposite.com/ (2021)
+Olsson, A., Hellsing, M. S., & Rennie, A. R. (2017). New possibilities using additive manufacturing with materials that are difficult to process and with complex structures. Physica Scripta, 92(5), 053002.
 
 <a id="6">[6]</a>
+Rennie, A. R., Hellsing, M. S., Lindholm, E., & Olsson, A. (2015). Note: Sample cells to investigate solid/liquid interfaces with neutrons. Review of Scientific Instruments, 86(1), 016115.
+
+<a id="7">[7]</a>
+Additive Composite Uppsala. Retrieved from https://additivecomposite.com/ (2021)
+
+<a id="8">[8]</a>
 Prusa Research. Retrieved from https://shop.prusa3d.com/en/content/4-about-us/ (2021)
