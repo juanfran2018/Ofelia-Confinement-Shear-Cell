@@ -12,7 +12,7 @@ particularly as the surfaces are compressed or confined.
 
 In this sense, Neutron Reflection (NR) is a powerful technique to study the structure of thin films at interfaces. 
 The development of an instrument capable of measuring confined samples has a long history. The initial approach 
-(Crossgrove and Zarbakhsh, 1994) was bring two solid surfaces together, with two quartz blocks providing they are parallel surfaces 
+[[1]](#1) was bring two solid surfaces together, with two quartz blocks providing they are parallel surfaces 
 and a hydraulic pressure system used to bring the surfaces to within 10-100 nm of each other. 
 The pressure required was large (10-150 bar), and strongly dependent of the sample. Other approaches (Kuhl and coworkers, 2001) also developed a similar confinement cell for neutron reflectometry with a limit
 of 80 to 100 nm for the smallest distance between surfaces. This approach also has the possibility to apply steady shear rates from 0.001 to 20 Hz (faster with oscillatory motion). Both
@@ -227,3 +227,21 @@ In order to control both the pressure controller and the pressure sensor,
 a LabView graphical interface was programmed. In particular, 
 the pressure sensor was connected to a microcontroller (Arduino) 
 and LabView was used for developing the GUI interface.
+
+## 3D Printed Masks
+
+Thermal neutron filtering as well as improvement of background is usually achieved by using Cadmium. Due to the the restrictions on the use of cadmium in the European Union (European Union Directive 2002/95/EC (RoHS)), avoiding the use of Cadmium in preferable. One of the alternatives that has recently gain some repercusion is the implementation of
+new 3D printing materials with the capatibility to block background scattering in reflection measurements improving signal to background ratio ([[2]](#2), [[3]](#3)).
+
+Ofelia implements two masks, that cover the input and output windows of the external and internal case lids. The 3D printed material used is Addbor N25 (Additive Composites Uppsala) a polyamide filled with 25% Boron Carbide. The masks were printed with a 3D printer Prusa  MK2S multimaterial, using the default parameters for ABS material.
+
+## References
+
+<a id="1">[1]</a> 
+Cosgrove, T., Luckham, P. F., Richardson, R. M., Webster, J. R. P., & Zarbakhsh, A. (1994). The measurement of volume fraction profiles for adsorbed polymers under compression using neutron reflectometry. Colloids and Surfaces A: Physicochemical and Engineering Aspects, 86, 103-110.
+
+<a id="2">[2]</a>
+Olsson, A., Hellsing, M. S., & Rennie, A. R. (2017). New possibilities using additive manufacturing with materials that are difficult to process and with complex structures. Physica Scripta, 92(5), 053002.
+
+<a id="3">[3]</a>
+Rennie, A. R., Hellsing, M. S., Lindholm, E., & Olsson, A. (2015). Note: Sample cells to investigate solid/liquid interfaces with neutrons. Review of Scientific Instruments, 86(1), 016115.
