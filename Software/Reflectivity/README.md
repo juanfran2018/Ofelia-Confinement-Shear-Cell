@@ -59,84 +59,55 @@ data_P2_sample_confined.name = "P2_sample_confined"
 4. SLD definitions
 
 ```python
-#SLD of Silicon block layers (theoretical values)
+
+#SLD of Silicon block layers, D2O, H2O and air (theoretical values)
 si = SLD(2.07 + 0j)
 sio2 = SLD(3.47 + 0j)
+d2o = SLD(6.36 + 0j)
+h2o = SLD(-0.56 + 0j)
+air = SLD(0.0 + 0j)
 
 #SLD of Silanes (theoretical value)
 silanes = SLD(0.7+0J)
-
-#SLD of the unconfined sample in D2O. Use "vary = True" if it is unknown.
-sldsample_d2o = Parameter(5.55583, 'sld sample')
-sldsample_d2o.setp(vary = True, bounds = (5.2, 6.2))
-
-#SLD of the unconfined sample in H2O. Use "vary = True" if it is unknown.
-sldmucinsd2o_h2o = Parameter(5.82485, 'sld mucins d2o')
-sldmucinsd2o_h2o.setp(vary = True, bounds = (3.7, 5.9))
-
-#SLD of the confined sample in D2O (same as D2O unconfined).
-#
-Sample_nopocket = SLD(sldsample_d2o)
-Sample_pocket = SLD(sldsample_d2o)
-
-
-#SLD of the polysterene (theoretical value)
-sldhps = Parameter(1.412, 'sld hps')
-sldhps.setp(vary = False, bounds = (1.2, 2.8))
-
-air = SLD(0.0 + 0j)
-hps = SLD(sldhps)
-hps1 = SLD(sldhps)
-hps2 = SLD(sldhps)
-hps3 = SLD(sldhps)
-
-
-
-pockets = SLD(4.94199 + 0J)
-nopockets = SLD(2.61373 + 0J)
-
-pockets2= SLD(5.54975 + 0J)
-nopockets2 = SLD(2.60686 + 0J)
-
-pockets3= SLD(5.54975 + 0J)
-nopockets3 = SLD(2.60686  + 0J)
-
-
-
-Melinex = SLD(2.53323 + 0J)
-
-Melinex.real.setp(vary=True, bounds=(2.4, 2.8))
-Melinex.real.name='silanes SLD'
-
-d2o = SLD(6.36 + 0j)
-h2o = SLD(-0.56 + 0j)
-
 silanes.real.setp(vary=False, bounds=(0.6, 0.8))
 silanes.real.name='silanes SLD'
 
+#SLD of the unconfined sample in D2O. Use "vary = True" if it is unknown.
+sldsample_d2o = Parameter(5.55583, 'sld sample d2o')
+sldsample_d2o.setp(vary = True, bounds = (5.2, 6.2))
+
+#SLD of the unconfined sample in H2O. Use "vary = True" if it is unknown.
+sldsample_h2o = Parameter(5.82485, 'sld sample h2o')
+sldsample_h2o.setp(vary = True, bounds = (3.7, 5.9))
+
+#SLD of the confined sample in D2O (in this case, the same as D2O unconfined).
+#sample_nopocket refers to the sample properly confined
+#sample_pocket refers to the sample that has been confined with dust or any other contamination
+#For this experiment, both are considered equal, as not material variation takes place
+Sample_nopocket = SLD(sldsample_d2o)
+Sample_pocket = SLD(sldsample_d2o)
+
+#SLD for the backing layer of the pockets contamination
+pockets = SLD(4.94199 + 0J)
 pockets.real.setp(vary=False, bounds=(4.0, 5.0))
 pockets.real.name='pocket SLD 1'
+
+#SLD for the backing layer without pockets contamination
+nopockets = SLD(2.61373 + 0J)
 nopockets.real.setp(vary=False, bounds=(2.2, 3.0))
 nopockets.real.name='no pocket SLD 1'
-pockets2.real.setp(vary=False, bounds=(4.6, 6.36))
-pockets2.real.name='pocket SLD 2'
-nopockets2.real.setp(vary=False, bounds=(2.2, 3.0))
-nopockets2.real.name='no pocket SLD 2'
-pockets3.real.setp(vary=True, bounds=(4.6, 6.36))
-pockets3.real.name='pocket SLD 3'
-nopockets3.real.setp(vary=True, bounds=(2.2, 3.0))
-nopockets3.real.name='no pocket SLD 3'
+
+#SLD of the (hydrogenated) polysterene (theoretical value)
+hps = SLD(1.412 +0J)
+hps.real.setp(vary=True, bounds= (1.2, 2.8))
+hps.real.name='sld hps'
+
+#SLD Melinex (already obtained)
+Melinex = SLD(2.53323 + 0J)
+Melinex.real.setp(vary=True, bounds=(2.4, 2.8))
+Melinex.real.name='silanes SLD'
 ```
 
 6. Modelling the sample using layers ("snabs").
 7. Fitting procedure
 8. Check results with data and fit plots
-
-
-
-```python
-require 'redcarpet'
-markdown = Redcarpet.new("Hello World!")
-puts markdown.to_html
-puts markdown.to_html
-```
