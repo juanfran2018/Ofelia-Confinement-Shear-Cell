@@ -114,8 +114,6 @@ Melinex.real.name='silanes SLD'
 
 ## References
 
-<a id="1">[1]</a>  
-Nelson, A. R., & Prescott, S. W. (2019). refnx: neutron and X-ray reflectometry analysis in Python. Journal of applied crystallography, 52(1), 193-200.
+<a id="1">[1]</a>  Nelson, A. R., & Prescott, S. W. (2019). refnx: neutron and X-ray reflectometry analysis in Python. Journal of applied crystallography, 52(1), 193-200.
 
-<a id="2">[2]</a>  
-RefNX software.  Retrieved from https://refnx.readthedocs.io/en/latest/#
+<a id="2">[2]</a>  RefNX software.  Retrieved from https://refnx.readthedocs.io/en/latest/#
