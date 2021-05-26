@@ -1,8 +1,8 @@
 ## Using RefNX software for modelling data
 
-Refnx is a powerful Python package  that has been used to model and fit the Neutron Reflectometry data obtained with Ofelia and Nellie [[1]](#1)[[2]](#2).
+Refnx is a powerful Python package  that has been used to model and fit the Neutron Reflectometry data obtained with Ofelia and Nellie [[1]](#1).
 
-In our experiments, the following schematics has been used through a Jupyter Notebook file:
+In our experiments, the following schematics has been used through a Jupyter Notebook file. Additional information on how to operate with RefNX can be found elsewhere [[2]](#2). Here, a brief description of a reflectivity experiment performed using Ofelia is presented:
 
 1. Packages needed to load the fitting procedure
 
