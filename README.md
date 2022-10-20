@@ -147,54 +147,34 @@ The linear and rotational confinement and shear cells requires the same motor: a
 and a PLC. This last one is useful to send commands programmatically and to connect the cell in an LAN for intrumentation. Regarding the software, a simple control
 was implemented to change speed and direction. The main (avalaible) parameters that affect the Mitsubishi motor are three:
 
-* Resolution (![$N_R$](https://render.githubusercontent.com/render/math?math=%24N_R%24))
-* Number of command pulses (![$N_p\leq 10^6$](https://render.githubusercontent.com/render/math?math=%24N_p%5Cleq%2010%5E6%24)
-)
-* PLC command pulses (![$N_{plc}\leq 2\cdot 10^5$](https://render.githubusercontent.com/render/math?math=%24N_%7Bplc%7D%5Cleq%202%5Ccdot%2010%5E5%24)
-)
+* Resolution ($N_R$)
+* Number of command pulses ($N_p\leq 10^6$)
+* PLC command pulses ($N_{plc}\leq 2\cdot10^5$)
 
 However, we will only modify the last two for the experiment. The equation that relates these parameters with the motor speed (<img src="https://render.githubusercontent.com/render/math?math=s">) is (in RPM):
-
-![s = 60\frac{N_{plc}}{N_p}](https://render.githubusercontent.com/render/math?math=s%20%3D%2060%5Cfrac%7BN_%7Bplc%7D%7D%7BN_p%7D)
-
+$$
+s = 60\frac{N_{plc}}{N_p}
+$$
 
 In the actual setup, speed is affected by the reduction of the Gearbox (100:1) for both, linear and rotational confinement cells.
 
 ### Rotational Confinement Cell Speed
 
-In this particular case, the bevel gear reduces 5 times the speed from the Gearbox, <img src="https://render.githubusercontent.com/render/math?math=s_r=s/(500)=\frac{3N_{plc}}{25N_p}">. The upper limit of the ![$s_r$](https://render.githubusercontent.com/render/math?math=%24s_r%24)
- using the full resolution (![$N_p=10^6$](https://render.githubusercontent.com/render/math?math=%24N_p%3D10%5E6%24)
-) and the maximum command pulses (![$N_{plc} =  2\cdot 10^5$](https://render.githubusercontent.com/render/math?math=%24N_%7Bplc%7D%20%3D%20%202%5Ccdot%2010%5E5%24)
-) is ![$s_r=0.024$](https://render.githubusercontent.com/render/math?math=%24s_r%3D0.024%24)
- rpm . At this speed, a complete silicon block revolution will last 41.7 minutes. The theoretical minimum speed is reached when ![$N_{plc}=1$](https://render.githubusercontent.com/render/math?math=%24N_%7Bplc%7D%3D1%24)
-, that is ![$s_r = 1.2\cdot 10^{-7}$](https://render.githubusercontent.com/render/math?math=%24s_r%20%3D%201.2%5Ccdot%2010%5E%7B-7%7D%24)
- rpm. When selecting speed, the following equations will be easier to use (with ![$s_r$](https://render.githubusercontent.com/render/math?math=%24s_r%24)
- in rpm) :
-![N_{plc} = \frac{25N_p}{3}s_r](https://render.githubusercontent.com/render/math?math=N_%7Bplc%7D%20%3D%20%5Cfrac%7B25N_p%7D%7B3%7Ds_r)
+In this particular case, the bevel gear reduces 5 times the speed from the Gearbox, $s_r=s/(500)=\frac{3N_{plc}}{25N_p}$. The upper limit of the $s_r$ using the full resolution ($N_p=10^6$) and the maximum command pulses ($N_{plc} =  2\cdot 10^5$) is $s_r=0.024$ rpm . At this speed, a complete silicon block revolution will last 41.7 minutes. The theoretical minimum speed is reached when $N_{plc}=1$, that is $s_r = 1.2\cdot 10^{-7}$ rpm. When selecting speed, the following equations will be easier to use (with $s_r$ in rpm) :
+$N_{plc} = 25N_p}s_r/3$.
 
-Using the time of the experiment as variable, ![25/3\cdot10^6\geq t_{exp}\geq 125/3](https://render.githubusercontent.com/render/math?math=25%2F3%5Ccdot10%5E6%5Cgeq%20t_%7Bexp%7D%5Cgeq%20125%2F3)
- min,
-![N_{plc} = \frac{25N_p}{3t_{exp}}](https://render.githubusercontent.com/render/math?math=N_%7Bplc%7D%20%3D%20%5Cfrac%7B25N_p%7D%7B3t_%7Bexp%7D%7D)
+Using the time of the experiment as variable, $25/3\cdot10^6\geq t_{exp}\geq 125/3$ min, we have $N_{plc} = 25N_p/(3t_{exp})$.
 
 ### Linear Confinement Cell Speed
 
 Only the gearbox reduces the speed of the motor:
-![s_\ell = s/(100)=\frac{3N_{plc}}{5N_p}](https://render.githubusercontent.com/render/math?math=s_%5Cell%20%3D%20s%2F(100)%3D%5Cfrac%7B3N_%7Bplc%7D%7D%7B5N_p%7D)
-The upper limit of the ![s_\ell](https://render.githubusercontent.com/render/math?math=s_%5Cell)
- using the full resolution (![N_p=10^6](https://render.githubusercontent.com/render/math?math=N_p%3D10%5E6)
-) and the maximum command pulses (![N_{plc} =  2\cdot 10^5](https://render.githubusercontent.com/render/math?math=N_%7Bplc%7D%20%3D%20%202%5Ccdot%2010%5E5)
-) is ![s_\ell=0.12](https://render.githubusercontent.com/render/math?math=s_%5Cell%3D0.12)
- rpm. At this speed, the silicon block will travel at the speed ![v_\ell = 0.24](https://render.githubusercontent.com/render/math?math=v_%5Cell%20%3D%200.24)
- (mm/min), where p is the step of the linear stage screw (p=2 mm):
-![v_\ell = p\cdot s_\ell=\frac{6N_{plc}}{5N_p}\ \ (mm/min)](https://render.githubusercontent.com/render/math?math=v_%5Cell%20%3D%20p%5Ccdot%20s_%5Cell%3D%5Cfrac%7B6N_%7Bplc%7D%7D%7B5N_p%7D%5C%20%5C%20(mm%2Fmin))
-That is, ![v_\ell = 4\ \mu m/s](https://render.githubusercontent.com/render/math?math=v_%5Cell%20%3D%204%5C%20%5Cmu%20m%2Fs). Supposing we only 
-have 2 mm of travel distance, we need 8.3 minutes to run the full length. 
-The theoretical minimum speed is reached when ![N_{plc}=1](https://render.githubusercontent.com/render/math?math=N_%7Bplc%7D%3D1)
-, $0.02 \mu m/s$. When selecting speed, the following equation will be easier to use (with ![$v_\ell$](https://render.githubusercontent.com/render/math?math=%24v_%5Cell%24)
- in mm/min):
-![N_{plc} = 5N_pv_\ell/6](https://render.githubusercontent.com/render/math?math=N_%7Bplc%7D%20%3D%205N_pv_%5Cell%2F6)
-Using the time of the experiment as variable, ![5/3\cdot10^6\geq t_{exp}\geq 25/3](https://render.githubusercontent.com/render/math?math=5%2F3%5Ccdot10%5E6%5Cgeq%20t_%7Bexp%7D%5Cgeq%2025%2F3) min,
-![N_{plc} =\frac{5N_p}{3t_{exp}}](https://render.githubusercontent.com/render/math?math=N_%7Bplc%7D%20%3D%5Cfrac%7B5N_p%7D%7B3t_%7Bexp%7D%7D).
+$$s_\ell = s/(100)=\frac{3N_{plc}}{5N_p}$$
+The upper limit of the $s_\ell$ using the full resolution ($N_p=10^6$) and the maximum command pulses ($N_{plc} =  2\cdot 10^5$) is $s_\ell=0.12$ rpm. At this speed, the silicon block will travel at the speed $v_\ell = 0.24 (mm/min), where $p$ is the step of the linear stage screw ($p=2$ mm):
+$$v_\ell = p\cdot s_\ell=\frac{6N_{plc}}{5N_p}\ \ (mm/min)$$
+That is, $v_\ell = 4\ \mu$m/s. Supposing we only have 2 mm of travel distance, we need 8.3 minutes to run the full length. 
+The theoretical minimum speed is reached when $N_{plc}=1$, $v_l = 0.02\ \mu$m/s. When selecting speed, the following equation will be easier to use (with $v_\ell$ in mm/min):
+$$N_{plc} = 5N_pv_\ell$$
+Using the time of the experiment as variable, $5/3\cdot10^6\geq t_{exp}\geq 25/3\ min$, we have $N_{plc} =5N_p/(3t_{exp}).
 
 ## Setting the ![N_{plc}](https://render.githubusercontent.com/render/math?math=N_%7Bplc%7D) parameter
 
