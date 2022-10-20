@@ -1,5 +1,3 @@
-\usepackage{mathtools}
-
 # Linear and Rotational Confinement Shear Cell
 
 ## Motivation
