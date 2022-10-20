@@ -187,7 +187,7 @@ $$
 
 Using the time of the experiment as variable, $5/3\cdot10^6\geq t_{exp}\geq 25/3\ min$, we have $N_{plc} =5N_p/(3t_{exp})$.
 
-## Setting the ![N_{plc}](https://render.githubusercontent.com/render/math?math=N_%7Bplc%7D) parameter
+## Setting the $N_{plc}$ parameter
 
 The $N_{plc}$ parameter is modified in the webpage of the PLC (address 192.168.3.250; the same address should be put in the TCP/IP configuration on the Ethernet adapter, with subnet mask 255.255.255.0). In this web page the following parameters can be set:
 
