@@ -1,4 +1,6 @@
-
+$$
+\usepackage{amsmath}
+$$
 
 # Linear and Rotational Confinement Shear Cell
 
