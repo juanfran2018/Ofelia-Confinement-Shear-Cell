@@ -191,7 +191,7 @@ That is, ![v_\ell = 4\ \mu m/s](https://render.githubusercontent.com/render/math
 have 2 mm of travel distance, we need 8.3 minutes to run the full length. 
 The theoretical minimum speed is reached when ![N_{plc}=1](https://render.githubusercontent.com/render/math?math=N_%7Bplc%7D%3D1)
 , 0.02
- $\mu$m/s. When selecting speed, the following equation will be easier to use (with ![$v_\ell$](https://render.githubusercontent.com/render/math?math=%24v_%5Cell%24)
+ <img src="https://render.githubusercontent.com/render/math?math=\mu m/s">. When selecting speed, the following equation will be easier to use (with ![$v_\ell$](https://render.githubusercontent.com/render/math?math=%24v_%5Cell%24)
  in mm/min):
 ![N_{plc} = 5N_pv_\ell/6](https://render.githubusercontent.com/render/math?math=N_%7Bplc%7D%20%3D%205N_pv_%5Cell%2F6)
 Using the time of the experiment as variable, ![5/3\cdot10^6\geq t_{exp}\geq 25/3](https://render.githubusercontent.com/render/math?math=5%2F3%5Ccdot10%5E6%5Cgeq%20t_%7Bexp%7D%5Cgeq%2025%2F3) min,
