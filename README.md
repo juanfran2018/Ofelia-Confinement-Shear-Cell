@@ -178,8 +178,8 @@ $$
 v_\ell = p\cdot s_\ell=\frac{6N_{plc}}{5N_p}\ \ (mm/min)
 $$
 
-That is, $v_\ell = 4\ \mu$m/s. Supposing we only have 2 mm of travel distance, we need 8.3 minutes to run the full length. 
-The theoretical minimum speed is reached when $N_{plc}=1$, $v_l = 0.02\ \mu$m/s. When selecting speed, the following equation will be easier to use (with $v_\ell$ in mm/min):
+That is, $v_\ell = 4\ \mu m/s$ . Supposing we only have 2 mm of travel distance, we need 8.3 minutes to run the full length. 
+The theoretical minimum speed is reached when $N_{plc}=1$ , $v_l = 0.02\ \mu m/s$ . When selecting speed, the following equation will be easier to use (with $v_\ell$ in mm/min):
 
 $$
 N_{plc} = 5N_pv_\ell
