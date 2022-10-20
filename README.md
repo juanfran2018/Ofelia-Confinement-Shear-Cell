@@ -149,7 +149,7 @@ was implemented to change speed and direction. The main (avalaible) parameters t
 * Number of command pulses ($N_p\leq 10^6$)
 * PLC command pulses ($N_{plc}\leq 2\cdot10^5$)
 
-However, we will only modify the last two for the experiment. The equation that relates these parameters with the motor speed $s$ is (in RPM):
+However, we will only modify the last two for the experiment. The equation that relates these parameters with the motor speed $ s $ (in RPM):
 $$
 s = 60\frac{N_{plc}}{N_p}
 $$
