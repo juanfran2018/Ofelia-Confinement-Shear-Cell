@@ -1,3 +1,8 @@
+$$
+\usepackage{bbm}
+y_{ij} = b_{ij} + \beta_{0} + \beta_{1}
+$$
+
 # Linear and Rotational Confinement Shear Cell
 
 ## Motivation
