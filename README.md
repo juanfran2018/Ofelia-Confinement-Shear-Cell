@@ -167,7 +167,7 @@ Using the time of the experiment as variable, $25/3\cdot10^6\geq t_{exp}\geq 125
 
 Only the gearbox reduces the speed of the motor:
 $$s_\ell = s/(100)=\frac{3N_{plc}}{5N_p}$$
-The upper limit of the $s_\ell$ using the full resolution ($N_p=10^6$) and the maximum command pulses ($N_{plc} =  2\cdot 10^5$) is $s_\ell=0.12$ rpm. At this speed, the silicon block will travel at the speed $v_\ell = 0.24 (mm/min), where $p$ is the step of the linear stage screw ($p=2$ mm):
+The upper limit of the $s_\ell$ using the full resolution ($N_p=10^6$) and the maximum command pulses ($N_{plc} =  2\cdot 10^5$) is $s_\ell=0.12$ rpm. At this speed, the silicon block will travel at the speed $v_\ell = 0.24$ (mm/min), where $p$ is the step of the linear stage screw ($p=2$ mm):
 $$v_\ell = p\cdot s_\ell=\frac{6N_{plc}}{5N_p}\ \ (mm/min)$$
 That is, $v_\ell = 4\ \mu$m/s. Supposing we only have 2 mm of travel distance, we need 8.3 minutes to run the full length. 
 The theoretical minimum speed is reached when $N_{plc}=1$, $v_l = 0.02\ \mu$m/s. When selecting speed, the following equation will be easier to use (with $v_\ell$ in mm/min):
