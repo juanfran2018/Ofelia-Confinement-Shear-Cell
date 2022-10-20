@@ -1,6 +1,4 @@
-$$
-\usepackage{amsmath}
-$$
+\usepackage[hybrid]{markdown}
 
 # Linear and Rotational Confinement Shear Cell
 
