@@ -145,7 +145,9 @@ The linear and rotational confinement and shear cells requires the same motor: a
 and a PLC. This last one is useful to send commands programmatically and to connect the cell in an LAN for intrumentation. Regarding the software, a simple control
 was implemented to change speed and direction. The main (avalaible) parameters that affect the Mitsubishi motor are three:
 
-
+* Resolution ($N_R$)
+* Number of command pulses ($N_p\leq 10^6$)
+* PLC command pulses ($N_{plc}\leq 2\cdot 10^5$)
 
 However, we will only modify the last two for the experiment. The equation that relates these parameters with the motor speed (in RPM):
 
@@ -157,7 +159,7 @@ In the actual setup, speed is affected by the reduction of the Gearbox (100:1) f
 
 ### Rotational Confinement Cell Speed
 
-In this particular case, the bevel gear reduces 5 times the speed from the Gearbox, $s_r=s/(500)=3N_{plc}/(25N_p)$. The upper limit of the $s_r$ using the full resolution ($N_p=10^6$) and the maximum command pulses ($N_{plc} =  2\cdot 10^5$) is $s_r=0.024$ rpm . At this speed, a complete silicon block revolution will last 41.7 minutes. The theoretical minimum speed is reached when $N_{plc}=1$, that is $s_r = 1.2\cdot 10^{-7}$ rpm. When selecting speed, the following equations will be easier to use (with $s_r$ in rpm) :
+In this particular case, the bevel gear reduces 5 times the speed from the Gearbox, $s_r=s/(500)=3N_{plc}/(25N_p)$. The upper limit of the $s_r$ using the full resolution $(N_p=10^6)$ and the maximum command pulses $(N_{plc} =  2\cdot 10^5)$ is $s_r=0.024$ rpm . At this speed, a complete silicon block revolution will last 41.7 minutes. The theoretical minimum speed is reached when $N_{plc}=1$, that is $s_r = 1.2\cdot 10^{-7}$ rpm. When selecting speed, the following equations will be easier to use (with $s_r$ in rpm) :
 $N_{plc} = 25N_p\cdot s_r/3$.
 
 Using the time of the experiment as variable, $25/3\cdot10^6\geq t_{exp}\geq 125/3$ min, we have $N_{plc} = 25N_p/(3t_{exp})$.
@@ -165,16 +167,24 @@ Using the time of the experiment as variable, $25/3\cdot10^6\geq t_{exp}\geq 125
 ### Linear Confinement Cell Speed
 
 Only the gearbox reduces the speed of the motor:
+
 $$
 s_\ell = s/(100)=\frac{3N_{plc}}{5N_p}
 $$
+
 The upper limit of the $s_\ell$ using the full resolution ($N_p=10^6$) and the maximum command pulses ($N_{plc} =  2\cdot 10^5$) is $s_\ell=0.12$ rpm. At this speed, the silicon block will travel at the speed $v_\ell = 0.24$ (mm/min), where $p$ is the step of the linear stage screw ($p=2$ mm):
-$$v_\ell = p\cdot s_\ell=\frac{6N_{plc}}{5N_p}\ \ (mm/min)$$
+
+$$
+v_\ell = p\cdot s_\ell=\frac{6N_{plc}}{5N_p}\ \ (mm/min)
+$$
+
 That is, $v_\ell = 4\ \mu$m/s. Supposing we only have 2 mm of travel distance, we need 8.3 minutes to run the full length. 
 The theoretical minimum speed is reached when $N_{plc}=1$, $v_l = 0.02\ \mu$m/s. When selecting speed, the following equation will be easier to use (with $v_\ell$ in mm/min):
+
 $$
 N_{plc} = 5N_pv_\ell
 $$
+
 Using the time of the experiment as variable, $5/3\cdot10^6\geq t_{exp}\geq 25/3\ min$, we have $N_{plc} =5N_p/(3t_{exp})$.
 
 ## Setting the ![N_{plc}](https://render.githubusercontent.com/render/math?math=N_%7Bplc%7D) parameter
