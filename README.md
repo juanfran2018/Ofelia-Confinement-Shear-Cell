@@ -145,9 +145,9 @@ The linear and rotational confinement and shear cells requires the same motor: a
 and a PLC. This last one is useful to send commands programmatically and to connect the cell in an LAN for intrumentation. Regarding the software, a simple control
 was implemented to change speed and direction. The main (avalaible) parameters that affect the Mitsubishi motor are three:
 
-* Resolution ($N_R$)
-* Number of command pulses ($N_p\leq 10^6$)
-* PLC command pulses ($N_{plc}\leq 2\cdot 10^5$)
+* Resolution $(N_R)$
+* Number of command pulses $(N_p\leq 10^6)$
+* PLC command pulses $(N_{plc}\leq 2\cdot 10^5)$
 
 However, we will only modify the last two for the experiment. The equation that relates these parameters with the motor speed (in RPM):
 
@@ -189,10 +189,8 @@ Using the time of the experiment as variable, $5/3\cdot10^6\geq t_{exp}\geq 25/3
 
 ## Setting the ![N_{plc}](https://render.githubusercontent.com/render/math?math=N_%7Bplc%7D) parameter
 
-The ![N_{plc}](https://render.githubusercontent.com/render/math?math=N_%7Bplc%7D) parameter is modified in the webpage 
-of the PLC (address 192.168.3.250; the same address should be put in the TCP/IP configuration on the Ethernet adapter, 
-with subnet mask 255.255.255.0). In this web page the following parameters can be set:
-\begin{itemize}
+The $N_{plc}$ parameter is modified in the webpage of the PLC (address 192.168.3.250; the same address should be put in the TCP/IP configuration on the Ethernet adapter, with subnet mask 255.255.255.0). In this web page the following parameters can be set:
+
 * M0: binary value (switch direction)
 * M1: binary value (forward)
 * M2: binary value (backward)
