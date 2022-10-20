@@ -160,8 +160,8 @@ In the actual setup, speed is affected by the reduction of the Gearbox (100:1) f
 
 ### Rotational Confinement Cell Speed
 
-In this particular case, the bevel gear reduces 5 times the speed from the Gearbox, $s_r=s/(500)=\frac{3N_{plc}}{25N_p}$. The upper limit of the $s_r$ using the full resolution ($N_p=10^6$) and the maximum command pulses ($N_{plc} =  2\cdot 10^5$) is $s_r=0.024$ rpm . At this speed, a complete silicon block revolution will last 41.7 minutes. The theoretical minimum speed is reached when $N_{plc}=1$, that is $s_r = 1.2\cdot 10^{-7}$ rpm. When selecting speed, the following equations will be easier to use (with $s_r$ in rpm) :
-$N_{plc} = 25N_p}s_r/3$.
+In this particular case, the bevel gear reduces 5 times the speed from the Gearbox, $s_r=s/(500)=3N_{plc}/(25N_p)$. The upper limit of the $s_r$ using the full resolution ($N_p=10^6$) and the maximum command pulses ($N_{plc} =  2\cdot 10^5$) is $s_r=0.024$ rpm . At this speed, a complete silicon block revolution will last 41.7 minutes. The theoretical minimum speed is reached when $N_{plc}=1$, that is $s_r = 1.2\cdot 10^{-7}$ rpm. When selecting speed, the following equations will be easier to use (with $s_r$ in rpm) :
+$N_{plc} = 25N_p\cdot s_r/3$.
 
 Using the time of the experiment as variable, $25/3\cdot10^6\geq t_{exp}\geq 125/3$ min, we have $N_{plc} = 25N_p/(3t_{exp})$.
 
